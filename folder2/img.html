@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <script src="img.js"></script>
+    <style>
+        .a{
+            border: solid;
+            background-color: lightpink;
+            padding:20px;
+            margin:20px
+
+        }
+        .a01
+        {
+            float: left;
+            width: 6cm;
+            height :5cm;
+            border: solid;
+        }
+        .a02
+        {
+            width: 6cm;
+            height :5cm;
+            float: right;
+            border: solid;
+        }
+        .a03
+        {
+            margin-left: 22%;
+            width: 6cm;
+            height :5cm;
+            border: solid;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="a">
+        <h1 align="center" style="margin-bottom: 30px;">MY FAVOURITE CRICKETERS</h1>
+        <img class="a01" src="dhoni.jpg" onmouseover="newImage1(this)" onmouseout="sameImage1(this)" id="01">
+        <img class="a02" src="iyer.jpg" onmouseover="newImage2(this)" onmouseout="sameImage2(this)" id="02"> 
+        <img  class="a03" src="pant.jpg" onmouseover="newImage3(this)" onmouseout="sameImage3(this)" id="03"> 
+       
+    </div>
+</body>
+</html>
