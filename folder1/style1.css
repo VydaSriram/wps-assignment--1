@@ -1,0 +1,42 @@
+.y
+{
+    background-color: yellow;
+    color: black;
+}
+#two
+{
+    color:red;
+}
+.lp
+{
+    background-color: rgb(228, 152, 152);
+    color: black;
+}
+.g
+{
+    background-color: rgb(243, 237, 237);
+    color: white;
+    width: 2cm;
+}
+td{
+   
+    width: 0.5cm;
+    padding-left: 8px;
+    text-align: center;
+   
+}
+.tab
+{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+.z
+{
+    height: 1cm;
+    width: 5cm;
+}
+input[type="number"]
+{
+    width: 1cm;
+}
