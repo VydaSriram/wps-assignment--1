@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Form</title>
+    <style>
+        .one
+        {
+            margin-left: 2%;
+            margin-top: 1%;
+            margin-right: 2%;
+            background-color:#E7D045 ;
+            color:black;
+            text-align: center;
+            border-radius:2mm;
+            height: 1.5cm;
+        }
+        .inner
+        {
+            margin-left: 2%;
+            margin-top: 1%;
+            margin-right: 2%;
+            border: solid;
+            border-color: black;
+            background-color: #AA96DA;
+            color:black;
+            height: 17cm;
+
+        }
+        .tab
+        {
+            border-collapse: collapse;
+            width: 80%;
+            margin-left: 9%;
+            margin-top: 5%;
+        }
+        td{
+            text-align: center;
+            border: solid;
+            border-color: black;
+            border-width: 0.6mm;
+        }
+        tr
+        {
+            height: 1.3cm;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <h1 style="font-size: 13mm;">FEED BACK FORM</h1>
+    </div>
+    <div class="inner">
+        <form action="" method="POST">
+            <table class="tab" border="1">
+                <tr><td><b>Name:</b></td> <td><input type="text" name="name"></td></tr>
+                <tr><td><b>H.No</b></td> <td><input type="number" name="hno" id="hno"></td></tr>
+                <tr><td><b>Email</b></td> <td><input type="email" name="email"></td></tr>
+                <tr><td><b>How much do you rate our college on 10</b></td> <td><select name="rating" id="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select></td></tr>
+                <tr><td><b>Do You Like our college</b> </td><td><input type="radio" name="clg" id="">Yes <input type="radio" name="clg" id="">No</td></tr>
+                <tr><td><b>How much do you rate our Library on 10</b></td> <td><select name="library" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select></td></tr>
+                <tr><td><b>How much do you rate our college Placements on 10</b></td> <td><select name="library" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select> </td>
+                    <tr><td> <b>FeedBack</b></td>> <td><textarea name="" id="" cols="40" rows="6" style="margin-top: 1%;"></textarea></td></tr>
+                    <tr><td colspan="2" ><b><input type="submit" value="submit"></b></td></tr>
+                </table>
+        </form>
+    </div>
+    
+</body>
+</html>

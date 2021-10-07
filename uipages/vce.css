@@ -1,0 +1,72 @@
+
+.a
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    border: solid;
+    height: 7cm;
+    background-color: #a9dce3;
+    border-color: black;
+    color: #7689de;
+}
+
+#one
+{
+    margin-top: 1cm;
+    margin-left: 1.5%;
+    float: left;
+    padding: 1mm;
+    border-radius: 1cm;
+    margin-right: 3cm;
+    height: 5cm;
+    width: 5cm;
+    object-fit: cover;
+    
+}
+.b
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #CCF381;
+    color:#4831D4;
+    border: solid;
+    border-color: black;
+    margin-top: 2mm;
+
+}
+.tab
+{
+    width:100%;
+    height: 7mm;
+}
+
+a:hover
+{
+    color:blue;
+}
+td{
+    width: 12.5%;
+}
+.c
+{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0.5%;
+    border: solid;
+    border-color: black;
+    height:36cm;
+
+}
+#img1
+{
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 6cm;
+    width: 16cm;
+    object-fit:cover;
+    float:left;
+
+}
+
+
